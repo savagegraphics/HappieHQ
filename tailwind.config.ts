@@ -1,82 +1,33 @@
-import flowbite from "flowbite/plugin";
-import type { Config } from "tailwindcss";
+import type { Config } from "tailwindcss"
 
 const config = {
   darkMode: ["class"],
   content: [
     './pages/**/*.{ts,tsx}',
-    "./public/**/*.html",
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',                                                                                                                                                                                                                                                                                                                                                                                                                                                
-    './node_modules/preline/preline.js', 
-    "./app/**/*.{ts,tsx}", 
-    "./node_modules/flowbite-react/lib/**/*.js",
-    'node_modules/flowbite-react/lib/esm/**/*.js',
-    "./node_modules/flowbite/**/*.js",
-     	],
+    './src/**/*.{ts,tsx}',
+	],
   prefix: "",
   theme: {
-    screens: {
-      'sm': '640px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1280px',
-      '2xl': '1536px',
-    },
-    // container: {
-    //   center: true,
-    //   padding: "2rem",
-    //   screens: {
-    //     "2xl": "1400px",
-    //   },
-    // },
-    extend: {   
-      fontFamily: {
-        'body': [
-      'Inter',
-      'ui-sans-serif',
-      'system-ui',
-      '-apple-system',
-      'system-ui',
-      'Segoe UI',
-      'Roboto',
-      'Helvetica Neue',
-      'Arial',
-      'Noto Sans',
-      'sans-serif',
-      'Apple Color Emoji',
-      'Segoe UI Emoji',
-      'Segoe UI Symbol',
-      'Noto Color Emoji'
-    ],
-        'sans': [
-      'Inter',
-      'ui-sans-serif',
-      'system-ui',
-      '-apple-system',
-      'system-ui',
-      'Segoe UI',
-      'Roboto',
-      'Helvetica Neue',
-      'Arial',
-      'Noto Sans',
-      'sans-serif',
-      'Apple Color Emoji',
-      'Segoe UI Emoji',
-      'Segoe UI Symbol',
-      'Noto Color Emoji'
-    ]
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1400px",
       },
+    },
+    extend: {
       colors: {
-        blue: '#024EC0',
-        lightblue: '#3ACFEF',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-           primary: {"50":"#eff6ff","100":"#dbeafe","200":"#bfdbfe","300":"#93c5fd","400":"#60a5fa","500":"#3b82f6","600":"#2563eb","700":"#1d4ed8","800":"#1e40af","900":"#1e3a8a","950":"#172554"},
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
@@ -123,11 +74,7 @@ const config = {
       },
     },
   },
-  plugins: [ flowbite,
-    require("tailwindcss-animate"),  
-   require('preline/plugin'),
-   require('flowbite/plugin'),
-  ],
+  plugins: [require("tailwindcss-animate")],
 } satisfies Config
 
-export default config  
+export default config
