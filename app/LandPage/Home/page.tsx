@@ -6,7 +6,7 @@ import FAQ from './FAQ'
 import CTA from './CTA'
 import Footer from './Footer'
 // import TestimonialsSection from './TestimonialsSection'
-import { testimonials } from '@/utils/constants'
+// import { testimonials } from '@/utils/constants'
 
 type Props = {}
 
