@@ -42,7 +42,6 @@ export default function RootLayout ({
           <ThemeModeScript />
         </head>
         <Providers>
-          {' '}
           <Flowbite>{children}</Flowbite>
         </Providers>
       </body>
