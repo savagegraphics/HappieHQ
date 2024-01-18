@@ -12,11 +12,6 @@ import { twMerge } from 'tailwind-merge'
 
 import { cn } from '../lib/utils'
 
-export const fontSans = FontSans({
-  subsets: ['latin'],
-  variable: '--font-sans'
-})
-
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -32,12 +27,7 @@ export default function RootLayout ({
   return (
     <html lang='en' className={fonts.rubik.variable} suppressHydrationWarning>
       <head />
-      <body
-        className={cn(
-          'min-h-screen bg-background font-sans antialiased',
-          fontSans.variable
-        )}
-      >
+      <body>
         <head>
           <ThemeModeScript />
         </head>
