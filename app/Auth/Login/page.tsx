@@ -87,7 +87,7 @@ const login = (props: Props) => {
                   </div>
 
                   <div className='mt-6'>
-                    <button className='w-full px-4 py-2 tracking-wide text-white transition-colors duration-300 transform bg-blue rounded-xl hover:bg-blue-400 focus:outline-none focus:bg-blue-400 focus:ring focus:ring-blue-300 focus:ring-opacity-50'>
+                    <button className='w-full px-4 py-2 tracking-wide text-white transition-colors duration-300 transform bg-blve rounded-xl hover:bg-blue-400 focus:outline-none focus:bg-blue-400 focus:ring focus:ring-blue-300 focus:ring-opacity-50'>
                       Sign in
                     </button>
                   </div>

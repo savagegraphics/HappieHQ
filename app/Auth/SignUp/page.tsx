@@ -37,7 +37,7 @@ const signin = (props: Props) => {
                 </h1>
 
                 <div className='mt-3 md:flex md:items-center md:-mx-2'>
-                  <button className='flex justify-center w-full px-6 py-3 text-white bg-blue rounded-xl md:w-auto md:mx-2 focus:outline-none'>
+                  <button className='flex justify-center w-full px-6 py-3 text-white bg-blve rounded-xl md:w-auto md:mx-2 focus:outline-none'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       className='w-6 h-6'
@@ -56,7 +56,7 @@ const signin = (props: Props) => {
                     <span className='mx-2'>Individual</span>
                   </button>
 
-                  <button className='flex justify-center w-full px-6 py-3 mt-4 text-blue border border-blue rounded-xl md:mt-0 md:w-auto md:mx-2 dark:border-blue-400 dark:text-blue-400 focus:outline-none'>
+                  <button className='flex justify-center w-full px-6 py-3 mt-4 text-blve border border-blve rounded-xl md:mt-0 md:w-auto md:mx-2 dark:border-blue-400 dark:text-blue-400 focus:outline-none'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       className='w-6 h-6'
@@ -153,7 +153,7 @@ const signin = (props: Props) => {
                 </p>
               </div>
               <div className='grid grid-cols-1 gap-6 md:grid-cols-2'>
-                <button className='flex items-center justify-between w-full px-6 py-3 text-sm tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue rounded-xl hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50'>
+                <button className='flex items-center justify-between w-full px-6 py-3 text-sm tracking-wide text-white capitalize transition-colors duration-300 transform bg-blve rounded-xl hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50'>
                   <Link href='../dashboard'>
                     {' '}
                     <span>Sign Up </span>

@@ -1,3 +1,4 @@
+import flowbite from "flowbite/plugin";
 import type { Config } from "tailwindcss"
 
 const config = {
@@ -5,8 +6,10 @@ const config = {
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
+    './node_modules/preline/preline.js', 
+    "./app/**/*.{ts,tsx}", 
+    "./node_modules/flowbite-react/lib/**/*.js",
 	],
   prefix: "",
   theme: {
@@ -14,11 +17,17 @@ const config = {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1400px',
       },
     },
     extend: {
       colors: {
+        blve: '#024EC0',
+        lightblve: '#3ACFEF',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -74,7 +83,11 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [ flowbite,
+    require("tailwindcss-animate"),  
+   require('preline/plugin'),
+   require('flowbite/plugin'),
+  ],
 } satisfies Config
 
 export default config

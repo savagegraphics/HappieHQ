@@ -10,7 +10,7 @@ const Navbar = (props: Props) => {
         <div className='lg:col-span-3'>
           <h1 className='block text-xl font-bold text-gray-800 sm:text-3xl md:text-2xl lg:text-4xl dark:text-white'>
             Get an effective shipping and fufillment services for your
-            <span className='text-blue'>{''} e-commerce</span> business.
+            <span className='text-blue-700'>{''} e-commerce</span> business.
           </h1>
           <p className='mt-3 text-md text-gray-800 dark:text-gray-400'>
             Welcome to a Happie life! Use Happie to send items to your
@@ -20,7 +20,7 @@ const Navbar = (props: Props) => {
 
           <div className='mt-7 grid gap-3 w-full sm:inline-flex'>
             <Link
-              className='py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-xl border border-transparent bg-blue text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'
+              className='py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-xl border border-transparent bg-blue-700 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'
               href='/Auth'
             >
               Start Shipping
