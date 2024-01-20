@@ -4,7 +4,7 @@ import Checkout from './Checks'
 import Proceed from './Proceed'
 import Checks from './Checks'
 import Products from './Products'
-import Completed from '../Deliveries/Completed'
+import Completed from './Completed'
 
 type Props = {}
 
