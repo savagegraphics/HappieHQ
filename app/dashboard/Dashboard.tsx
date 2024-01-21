@@ -420,13 +420,14 @@ import React from 'react'
 // import Cards from './Merchant/Cards'
 // import Grid from './Merchant/Grid'
 // import Container from './Merchant/Container'
+import UserHero from './Merchant/UserHero'
 
 type Props = {}
 
 const Dashboard = (props: Props) => {
   return (
     <div className='mx-8 my-8'>
-      hetyy
+      <UserHero />
       {/* <Hero />
       <Cards />
       <Grid />
