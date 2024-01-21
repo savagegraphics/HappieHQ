@@ -3,7 +3,7 @@ import React from 'react'
 
 type Props = {}
 
-const SearchNav = (props: Props) => {
+const page = (props: Props) => {
   return (
     <section className='bg-gray-50 dark:bg-gray-900 flex items-center'>
       <div className='max-w-screen-xl mx-auto w-full'>
