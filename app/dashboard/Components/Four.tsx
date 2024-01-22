@@ -27,7 +27,7 @@ const page = (props: Props) => {
                 </h3>
                 <p className='mt-3 text-gray-600 dark:text-gray-400'>
                   Produce professional, reliable streams easily leveraging
-                  Preline's innovative broadcast studio
+                  Preline&apos;s innovative broadcast studio
                 </p>
                 <p className='mt-4 inline-flex items-center gap-x-1 text-blue-600 decoration-2 hover:underline font-medium'>
                   Read more

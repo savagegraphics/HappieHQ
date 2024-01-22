@@ -49,15 +49,15 @@ const page = (props: Props) => {
 
                 <p className='text-lg text-gray-800 dark:text-gray-200'>
                   At preline, our mission has always been focused on bringing
-                  openness and transparency to the design process. We've always
-                  believed that by providing a space where designers can share
-                  ongoing work not only empowers them to make better products,
-                  it also helps them grow.
+                  openness and transparency to the design process. We&apos;ve
+                  always believed that by providing a space where designers can
+                  share ongoing work not only empowers them to make better
+                  products, it also helps them grow.
                 </p>
 
                 <p className='text-lg text-gray-800 dark:text-gray-200'>
-                  We're proud to be a part of creating a more open culture and
-                  to continue building a product that supports this vision.
+                  We&apos;re proud to be a part of creating a more open culture
+                  and to continue building a product that supports this vision.
                 </p>
 
                 <div className='text-center'>
@@ -93,16 +93,16 @@ const page = (props: Props) => {
                 </div>
 
                 <p className='text-lg text-gray-800 dark:text-gray-200'>
-                  As we've grown, we've seen how Preline has helped companies
-                  such as Spotify, Microsoft, Airbnb, Facebook, and Intercom
-                  bring their designers closer together to create amazing
-                  things. We've also learned that when the culture of sharing is
-                  brought in earlier, the better teams adapt and communicate
-                  with one another.
+                  As we&apos;ve grown, we&apos;ve seen how Preline has helped
+                  companies such as Spotify, Microsoft, Airbnb, Facebook, and
+                  Intercom bring their designers closer together to create
+                  amazing things. We&apos;ve also learned that when the culture
+                  of sharing is brought in earlier, the better teams adapt and
+                  communicate with one another.
                 </p>
 
                 <p className='text-lg text-gray-800 dark:text-gray-200'>
-                  That's why we are excited to share that we now have a{' '}
+                  That&apos;s why we are excited to share that we now have a{' '}
                   <a
                     className='text-blue-600 decoration-2 hover:underline font-medium'
                     href='#'
@@ -154,19 +154,20 @@ const page = (props: Props) => {
                   <li className='ps-2'>
                     Preline allows us to collaborate in real time and is a
                     really great way for leadership on the team to stay
-                    up-to-date with what everybody is working on,"{' '}
+                    up-to-date with what everybody is working on,&quot;{' '}
                     <a
                       className='text-blue-600 decoration-2 hover:underline font-medium'
                       href='#'
                     >
                       said
                     </a>{' '}
-                    Stewart Scott-Curran, Intercom's Director of Brand Design.
+                    Stewart Scott-Curran, Intercom&apos;s Director of Brand
+                    Design.
                   </li>
                   <li className='ps-2'>
-                    Preline opened a new way of sharing. It's a persistent way
-                    for everyone to see and absorb each other's work," said
-                    David Scott, Creative Director at{' '}
+                    Preline opened a new way of sharing. It&apos;s a persistent
+                    way for everyone to see and absorb each other&apos;s
+                    work,&quot; said David Scott, Creative Director at{' '}
                     <a
                       className='text-blue-600 decoration-2 hover:underline font-medium'
                       href='#'
@@ -180,12 +181,12 @@ const page = (props: Props) => {
                 <p className='text-lg text-gray-800 dark:text-gray-200'>
                   Small teams and individual designers need a space where they
                   can watch the design process unfold, both for themselves and
-                  for the people they work with – no matter if it's a fellow
-                  designer, product manager, developer or client. Preline allows
-                  you to invite more people into the process, creating a central
-                  place for conversation around design. As those teams grow,
-                  transparency and collaboration becomes integrated in how they
-                  communicate and work together.
+                  for the people they work with – no matter if it&apos;s a
+                  fellow designer, product manager, developer or client. Preline
+                  allows you to invite more people into the process, creating a
+                  central place for conversation around design. As those teams
+                  grow, transparency and collaboration becomes integrated in how
+                  they communicate and work together.
                 </p>
 
                 <div className='grid lg:flex lg:justify-between lg:items-center gap-y-5 lg:gap-y-0'>

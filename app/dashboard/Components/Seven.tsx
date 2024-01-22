@@ -59,7 +59,7 @@ const page = (props: Props) => {
              Simple and affordable
            </h3>
            <p className="mt-1 text-gray-600 dark:text-gray-400">
-             From boarding passes to movie tickets, there's pretty much nothing you can't store with Preline.
+             From boarding passes to movie tickets, there&apos;s pretty much nothing you can&apos;t store with Preline.
            </p>
          </div>
        </div>
