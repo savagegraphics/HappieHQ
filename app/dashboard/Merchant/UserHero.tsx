@@ -6,7 +6,7 @@ type Props = {}
 const page = (props: Props) => {
   return (
     <div>
-      <div className='max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto'>
+      <div className='max-w-[85rem] px-4 py-6 sm:px-6 lg:px-8 lg:py-8 mx-auto'>
         <div className='grid lg:grid-cols-2 gap-6'>
           <div className='group relative block rounded-xl dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'>
             <div className='flex-shrink-0 relative rounded-xl overflow-hidden w-full h-[250px] before:absolute before:inset-x-0 before:w-full before:h-full before:bg-gradient-to-t before:from-gray-900/[.7] before:z-[1]'>
