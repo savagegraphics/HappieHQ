@@ -4,82 +4,117 @@ import React from 'react'
 type Props = {}
 
 const page = (props: Props) => {
-  return <div>
-    <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-  <div className="grid lg:grid-cols-2 gap-6">
-    <a className="group relative block rounded-xl dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
-      <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full h-[350px] before:absolute before:inset-x-0 before:w-full before:h-full before:bg-gradient-to-t before:from-gray-900/[.7] before:z-[1]">
-        <img className="w-full h-full absolute top-0 start-0 object-cover" src="https://images.unsplash.com/photo-1669828230990-9b8583a877ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1062&q=80" alt="Image Description"/>
-      </div>
-
-      <div className="absolute top-0 inset-x-0 z-10">
-        <div className="p-4 flex flex-col h-full sm:p-6">
-          <div className="flex items-center">
-            <div className="flex-shrink-0">
-              <img className="h-[2.875rem] w-[2.875rem] border-2 border-white rounded-full" src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Image Description"/>
+  return (
+    <div>
+      <div className='max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto'>
+        <div className='grid lg:grid-cols-2 gap-6'>
+          <div className='group relative block rounded-xl dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'>
+            <div className='flex-shrink-0 relative rounded-xl overflow-hidden w-full h-[250px] before:absolute before:inset-x-0 before:w-full before:h-full before:bg-gradient-to-t before:from-gray-900/[.7] before:z-[1]'>
+              <div
+                className='w-full h-full absolute top-0 start-0 object-cover'
+                style={{ backgroundColor: '#0F2B48' }}
+              />
             </div>
-            <div className="ms-2.5 sm:ms-4">
-              <h4 className="font-semibold text-white">
-                Gloria
-              </h4>
-              <p className="text-xs text-white/[.8]">
-                Jan 09, 2021
-              </p>
+
+            <div className='absolute top-[2rem] inset-x-0 z-10'>
+              <div className='flex justify-between'>
+                <div className='mx-8'>
+                  <h2 className='text-white text-2xl font-bold my-4'>
+                    Good Evening, David
+                  </h2>
+                  <p className='text-white mb-4 text-opacity-50 text-base font-thin font-[Inter]'>
+                    Welcome back!
+                  </p>
+                  <div className=' text-white mr-4 font-semibold'>
+                    {' '}
+                    <button
+                      type='submit'
+                      className='w-32 h-10 text-white bg-[#36C6EB] hover:bg-[#36C6EB] hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-normal font-Inter rounded-xl text-sm px-4 py-2'
+                    >
+                      Fund Wallet
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='absolute bottom-12 lg:top-8 right-4 z-10'>
+              <div className='flex h-full p-4 sm:p-6'>
+                <div className='ml-16'>
+                  <img src='./assets/Ellipse24.svg' alt='' />
+                </div>
+                <div className='-ml-[8rem]'>
+                  <img src='./assets/Ellipse24.svg' alt='' />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className='group relative block rounded-xl dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'>
+            <div className='flex-shrink-0 relative rounded-xl overflow-hidden w-full h-[250px] before:absolute before:inset-x-0 before:w-full before:h-full before:bg-gradient-to-t before:from-gray-900/[.7] before:z-[1]'>
+              <div
+                className='w-full h-full absolute top-0 start-0 object-cover'
+                style={{ backgroundColor: '#0F2B48' }}
+              />
+            </div>
+
+            <div className='absolute top-0 inset-x-0 z-10'>
+              <div className='flex flex-col h-full p-4 sm:p-6'>
+                <div className='flex justify-between m-4'>
+                  <img src='/svg/Shipment/finbag.svg' alt='' />
+                  <div className='mr-4 mt-2'>
+                    {' '}
+                    <h4 className='font-bold text-white text-base'>Wallet</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='absolute bottom-12 lg:top-8 right-4 z-10'>
+              <div className='flex h-full p-4 sm:p-6'>
+                <div className='ml-16'>
+                  <img src='./assets/Ellipse24.svg' alt='' />
+                </div>
+                <div className='-ml-[8rem]'>
+                  <img src='./assets/Ellipse24.svg' alt='' />
+                </div>
+              </div>
+            </div>
+
+            <div className='absolute top-[2rem] inset-x-0 z-10'>
+              <div className='flex justify-between'>
+                <div className='mx-8 mt-12'>
+                  <h2 className='text-white text-4xl font-bold my-4'>
+                    N18,240
+                  </h2>
+                  <p className='text-white mb-4 text-opacity-50 text-sm font-thin font-[Inter]'>
+                    Main Account
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className='absolute bottom-0 inset-x-0 z-10'>
+              <div className='flex flex-col h-full p-4 sm:p-6'>
+                <div className='flex justify-between'>
+                  <div className=''></div>
+                  <div className=' text-white mr-4 font-semibold'>
+                    {' '}
+                    <button
+                      type='submit'
+                      className='w-32 h-10 text-[#0F2B48] bg-white hover:bg-[#36C6EB] hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold font-Inter rounded-xl text-xs px-4 py-2'
+                    >
+                      Fund Wallet
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div className="absolute bottom-0 inset-x-0 z-10">
-        <div className="flex flex-col h-full p-4 sm:p-6">
-          <h3 className="text-lg sm:text-3xl font-semibold text-white group-hover:text-white/[.8]">
-            Facebook is creating a news section in Watch to feature breaking news
-          </h3>
-          <p className="mt-2 text-white/[.8]">
-            Facebook launched the Watch platform in August
-          </p>
-        </div>
-      </div>
-    </a>
-
-    <a className="group relative block rounded-xl dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
-      <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full h-[350px] before:absolute before:inset-x-0 before:w-full before:h-full before:bg-gradient-to-t before:from-gray-900/[.7] before:z-[1]">
-        <img className="w-full h-full absolute top-0 start-0 object-cover" src="https://images.unsplash.com/photo-1611625618313-68b87aaa0626?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80" alt="Image Description"/>
-      </div>
-
-      <div className="absolute top-0 inset-x-0 z-10">
-        <div className="p-4 flex flex-col h-full sm:p-6">
-          <div className="flex items-center">
-            <div className="flex-shrink-0">
-              <img className="h-[2.875rem] w-[2.875rem] border-2 border-white rounded-full" src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Image Description"/>
-            </div>
-            <div className="ms-2.5 sm:ms-4">
-              <h4 className="font-semibold text-white">
-                Gloria
-              </h4>
-              <p className="text-xs text-white/[.8]">
-                May 30, 2021
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="absolute bottom-0 inset-x-0 z-10">
-        <div className="flex flex-col h-full p-4 sm:p-6">
-          <h3 className="text-lg sm:text-3xl font-semibold text-white group-hover:text-white/[.8]">
-            What CFR (Conversations, Feedback, Recognition) really is about
-          </h3>
-          <p className="mt-2 text-white/[.8]">
-            For a lot of people these days, Measure What Matters.
-          </p>
-        </div>
-      </div>
-    </a>
-  </div>
-</div>
-  </div>
+    </div>
+  )
 }
 
 export default page
-
