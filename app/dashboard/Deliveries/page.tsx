@@ -1,12 +1,12 @@
 import React from 'react'
-import Components from '../Components/page'
+import Router from './Router'
 
 type Props = {}
 
 const page = (props: Props) => {
   return (
-    <div className='overflow-hidden'>
-      <Components />
+    <div className=''>
+      <Router />
     </div>
   )
 }
