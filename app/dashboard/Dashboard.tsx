@@ -414,11 +414,11 @@
 // }
 
 // export default MyComponent
-
+'use client'
 import React from 'react'
 // import Hero from './Merchant/Hero'
 // import Cards from './Merchant/Cards'
-// import Grid from './Merchant/Grid'
+// import Grid fr'use client''use client'om './Merchant/Grid'
 // import Container from './Merchant/Container'
 import UserHero from './Merchant/UserHero'
 import Two from './Components/Two'
@@ -435,7 +435,7 @@ const Dashboard = (props: Props) => {
       <UserHero />
       <Cards />
       <Grid />
-      <Container/>
+      <Container />
       {/* <div className='lg:flex lg:-mx-6 lg:my-6'>
         <div className='lg:w-4/6 lg:px-6'>
           <Cards />
