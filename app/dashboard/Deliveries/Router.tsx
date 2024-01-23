@@ -17,7 +17,7 @@ const Router = (props: Props) => {
             bg: 'white',
             borderRadius: '0.75rem'
           }}
-          className='mx-2'
+          className='mx-2 whitespace-wrap text-sm sm:text-xs'
         >
           In Transit
         </Tab>
@@ -27,7 +27,7 @@ const Router = (props: Props) => {
             bg: 'white',
             borderRadius: '0.75rem'
           }}
-          className='mx-2'
+          className='mx-2 whitespace-wrap text-sm sm:text-xs'
         >
           Prepaid
         </Tab>
@@ -37,7 +37,7 @@ const Router = (props: Props) => {
             bg: 'white',
             borderRadius: '0.75rem'
           }}
-          className='mx-2'
+          className='mx-2 whitespace-wrap text-sm sm:text-xs'
         >
           Completed
         </Tab>
