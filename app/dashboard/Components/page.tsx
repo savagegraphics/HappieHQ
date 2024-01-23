@@ -22,7 +22,8 @@ type Props = {}
 const page = (props: Props) => {
   return (
     <div>
-      <One />
+      hey
+      {/* <One />
       <Two />
       <Three />
       <Four />
@@ -37,7 +38,7 @@ const page = (props: Props) => {
       <Preview />
       <Pricing />
       <Products />
-      <ReplaceCarousel />
+      <ReplaceCarousel /> */}
       {/* <SignIn /> */}
     </div>
   )

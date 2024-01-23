@@ -1,12 +1,13 @@
 import React from 'react'
+import BalHero from './BalHero'
 // import Flowbite from '@/app/dashboard/flowbite'
 
 type Props = {}
 
 const page = (props: Props) => {
   return (
-    <div>
-      <div className='max-w-[85rem] px-4 py-6 sm:px-6 lg:px-8 lg:py-8 mx-auto'>
+    <div className='-mt-2 lg:-mt-6'>
+      <div className='max-w-[85rem] px-4 py- sm:px-6 lg:px-8 lg:py-8 mx-auto'>
         <div className='grid lg:grid-cols-2 gap-6'>
           <div className='group relative block rounded-xl dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'>
             <div className='flex-shrink-0 relative rounded-xl overflow-hidden w-full h-[250px] before:absolute before:inset-x-0 before:w-full before:h-full before:bg-gradient-to-t before:from-gray-900/[.7] before:z-[1]'>
@@ -31,7 +32,7 @@ const page = (props: Props) => {
                       type='submit'
                       className='w-32 h-10 text-white bg-[#36C6EB] hover:bg-[#36C6EB] hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-normal font-Inter rounded-xl text-sm px-4 py-2'
                     >
-                      Fund Wallet
+                      Start Shipping
                     </button>
                   </div>
                 </div>
@@ -51,6 +52,7 @@ const page = (props: Props) => {
           </div>
 
           <div className='group relative block rounded-xl dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'>
+            {/* <BalHero /> */}
             <div className='flex-shrink-0 relative rounded-xl overflow-hidden w-full h-[250px] before:absolute before:inset-x-0 before:w-full before:h-full before:bg-gradient-to-t before:from-gray-900/[.7] before:z-[1]'>
               <div
                 className='w-full h-full absolute top-0 start-0 object-cover'
@@ -94,7 +96,7 @@ const page = (props: Props) => {
               </div>
             </div>
 
-            <div className='absolute bottom-0 inset-x-0 z-10'>
+            <div className='absolute bottom-6 inset-x-0 z-10'>
               <div className='flex flex-col h-full p-4 sm:p-6'>
                 <div className='flex justify-between'>
                   <div className=''></div>
