@@ -38,12 +38,12 @@ const login = (props: Props) => {
                   </h1>
                   <p className='mt-2 text-sm text-gray-600 dark:text-gray-400'>
                     Don&apos;t have an account yet?
-                    <a
+                    <Link
+                      href='/Auth/SignUp'
                       className='text-blue-600 d66 ecoration-2 hover:underline font-medium dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'
-                      href='../examples/html/signup.html'
                     >
                       Sign up here
-                    </a>
+                    </Link>
                   </p>
                 </div>
 
