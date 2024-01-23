@@ -189,7 +189,10 @@ const login = (props: Props) => {
                         type='submit'
                         className='w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-xl border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'
                       >
-                        Sign in
+                        <Link href='../dashboard'>
+                          {' '}
+                          <span>Sign In </span>
+                        </Link>
                       </button>
                     </div>
                   </form>
