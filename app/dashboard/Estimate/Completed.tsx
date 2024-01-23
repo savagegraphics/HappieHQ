@@ -1,5 +1,5 @@
 import React from 'react'
-import Cmpltd from './Cmpltd'
+// import Cmpltd from './Cmpltd'
 
 type Props = {}
 
@@ -323,9 +323,9 @@ const Complete = (props: Props) => {
               </ul>
             </div>
 
-            <div className='lg:col-span-3'>
+            {/* <div className='lg:col-span-3'>
               <Cmpltd />
-            </div>
+            </div> */}
 
             {/* <div className='lg:col-span-3'>
               <div className='border-b border-gray-300'>
