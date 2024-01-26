@@ -7,9 +7,9 @@ import { fonts } from './fonts'
 import { Inter as FontSans } from 'next/font/google'
 import PrelineScript from './PrelineScript'
 // import { ThemeModeScript } from 'flowbite-react'
-import { Flowbite, ThemeModeScript } from 'flowbite-react'
-import { type FC, type PropsWithChildren } from 'react'
-import { twMerge } from 'tailwind-merge'
+// import { Flowbite, ThemeModeScript } from 'flowbite-react'
+// import { type FC, type PropsWithChildren } from 'react'
+// import { twMerge } from 'tailwind-merge'
 
 import { cn } from '../lib/utils'
 

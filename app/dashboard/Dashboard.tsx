@@ -422,10 +422,10 @@ import React from 'react'
 // import Container from './Merchant/Container'
 import UserHero from './Merchant/UserHero'
 import Two from './Components/Two'
-import Cards from './Merchant/Cards'
 import RoutePrices from './Merchant/RoutePrices'
 import Grid from './Merchant/Grid'
 import Container from './Merchant/Container'
+import Cards from './Merchant/Cards'
 
 type Props = {}
 
@@ -433,8 +433,8 @@ const Dashboard = (props: Props) => {
   return (
     <div className='mx-8 my-8'>
       <UserHero />
-      <Cards />
       <Grid />
+      <Cards />
       <Container />
       {/* <div className='lg:flex lg:-mx-6 lg:my-6'>
         <div className='lg:w-4/6 lg:px-6'>
