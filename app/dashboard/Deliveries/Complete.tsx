@@ -360,7 +360,7 @@ const Complete = (props: Props) => {
                         I bought this hat for my boyfriend, but then i found out
                         he cheated on me so I kept it and I love it!! I wear it
                         all the time and there is no problem with the fit even
-                        though its a mens" hat.
+                        though its a mens&quot; hat.
                       </span>
                     </a>
                   </td>
@@ -650,7 +650,7 @@ const Complete = (props: Props) => {
                         />
                         <div>
                           <span className='block text-sm font-semibold text-gray-800 dark:text-gray-200'>
-                            Levis women's jeans
+                            Levis women&apos;s jeans
                           </span>
                         </div>
                       </div>
@@ -733,8 +733,8 @@ const Complete = (props: Props) => {
                         Buy the product, you will not regret it!
                       </span>
                       <span className='block text-sm text-gray-500'>
-                        Don't let this merchandise get away! It's a must buy and
-                        you will look good in it while working out.
+                        Don&apos;t let this merchandise get away! It&apos;s a
+                        must buy and you will look good in it while working out.
                       </span>
                     </a>
                   </td>
