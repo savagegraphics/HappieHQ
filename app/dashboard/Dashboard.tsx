@@ -425,7 +425,7 @@ import Two from './Components/Two'
 import RoutePrices from './Merchant/RoutePrices'
 import Grid from './Merchant/Grid'
 import Container from './Merchant/Container'
-import Cards from './Merchant/Cards'
+import Cards from './Merchant/RoutePrices'
 
 type Props = {}
 
@@ -434,8 +434,8 @@ const Dashboard = (props: Props) => {
     <div className='mx-8 my-8'>
       <UserHero />
       <Grid />
-      <Cards />
       <Container />
+      <Cards />
       {/* <div className='lg:flex lg:-mx-6 lg:my-6'>
         <div className='lg:w-4/6 lg:px-6'>
           <Cards />

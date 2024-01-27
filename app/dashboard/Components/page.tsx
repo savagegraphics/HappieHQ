@@ -16,13 +16,55 @@ import CheckOut from './CheckOut'
 import Checked from './Checked'
 import BalanceHero from './BalanceHero'
 import AuthorCard from './AuthorCard'
+import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 
 type Props = {}
 
 const page = (props: Props) => {
   return (
     <div>
-      hey
+      <Tabs variant='unstyled'>
+        <TabList className='bg-white w-56 m-8 p-2 rounded-[0.6rem]'>
+          <Tab
+            _selected={{
+              color: 'white',
+              bg: 'blue.500',
+              borderRadius: '0.375rem'
+            }}
+          >
+            One
+          </Tab>
+          <Tab
+            _selected={{
+              color: 'white',
+              bg: 'blue.500',
+              borderRadius: '0.375rem'
+            }}
+          >
+            Two
+          </Tab>
+          <Tab
+            _selected={{
+              color: 'white',
+              bg: 'blue.500',
+              borderRadius: '0.375rem'
+            }}
+          >
+            Three
+          </Tab>
+        </TabList>
+        <TabPanels>
+          <TabPanel>
+            <p>one!</p>
+          </TabPanel>
+          <TabPanel>
+            <p>two!</p>
+          </TabPanel>
+          <TabPanel>
+            <p>three!</p>
+          </TabPanel>
+        </TabPanels>
+      </Tabs>
       {/* <One />
       <Two />
       <Three />
