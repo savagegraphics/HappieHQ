@@ -9,35 +9,32 @@ type Props = {}
 
 const Router = (props: Props) => {
   return (
-    <Tabs variant='unstyled' className='w-[100%] mt-4'>
-      <TabList className='bg-gray-100 p-[6px] w-[22rem] rounded-xl ml-6'>
+    <Tabs variant='unstyled'>
+      <TabList className='bg-white w-80 m-8 p-2 rounded-[0.6rem]'>
         <Tab
           _selected={{
-            color: 'black',
-            bg: 'white',
-            borderRadius: '0.75rem'
+            color: 'white',
+            bg: 'blue.500',
+            borderRadius: '0.375rem'
           }}
-          className='mx-2 whitespace-wrap text-sm sm:text-xs'
         >
           In Transit
         </Tab>
         <Tab
           _selected={{
-            color: 'black',
-            bg: 'white',
-            borderRadius: '0.75rem'
+            color: 'white',
+            bg: 'blue.500',
+            borderRadius: '0.375rem'
           }}
-          className='mx-2 whitespace-wrap text-sm sm:text-xs'
         >
           Prepaid
         </Tab>
         <Tab
           _selected={{
-            color: 'black',
-            bg: 'white',
-            borderRadius: '0.75rem'
+            color: 'white',
+            bg: 'blue.500',
+            borderRadius: '0.375rem'
           }}
-          className='mx-2 whitespace-wrap text-sm sm:text-xs'
         >
           Completed
         </Tab>
