@@ -7,7 +7,6 @@ const config = {
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-    'node_modules/preline/dist/*.js',
     './node_modules/preline/preline.js', 
     "./app/**/*.{ts,tsx}", 
     "./node_modules/flowbite-react/lib/**/*.js",

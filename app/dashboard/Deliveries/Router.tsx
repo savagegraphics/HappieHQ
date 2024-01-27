@@ -1,9 +1,12 @@
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 
 import React from 'react'
-import Grid from './Grid'
-import NavSearch from './NavSearch'
-import Completed from './Completed'
+// import Grid from './Grid'
+// import NavSearch from './NavSearch'
+// import Completed from './Completed'
+import Prepaid from './Prepaid'
+import InTransit from './InTransit'
+import Complete from './Complete'
 
 type Props = {}
 
@@ -41,13 +44,13 @@ const Router = (props: Props) => {
       </TabList>
       <TabPanels>
         <TabPanel>
-          <NavSearch />
+          <InTransit />
         </TabPanel>
         <TabPanel>
-          <Grid />
+          <Prepaid />
         </TabPanel>
         <TabPanel>
-          <Completed />
+          <Complete />
         </TabPanel>
       </TabPanels>
     </Tabs>
