@@ -1,17 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Accordion, AccordionItem } from '@nextui-org/react'
-import { Selection } from '@react-types/shared'
 
 type Props = {}
 
-const page: React.FC<Props> = props => {
-  const [selectedKeys, setSelectedKeys] = React.useState(new Set(['1']))
-
-  // Define a function to handle selection change
-  const handleSelectionChange = (keys: Selection) => {
-    // Update the selected keys state
-    setSelectedKeys(keys as Set<string>)
-  }
+const FAQPage: React.FC<Props> = () => {
+  const [selectedKeys, setSelectedKeys] = useState<Set<string>>(new Set(['1']))
 
   return (
     <div className='max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto'>
@@ -23,7 +16,7 @@ const page: React.FC<Props> = props => {
             </h2>
             <p className='mt-1 hidden md:block text-gray-600 dark:text-gray-400'>
               We have carefully prepared a list of the most frequent inquiries
-              for you. This will give you more insights on what Happie is about.{' '}
+              for you. This will give you more insights on what Happie is about.
             </p>
           </div>
         </div>
@@ -31,7 +24,7 @@ const page: React.FC<Props> = props => {
         <div className='md:col-span-3'>
           <Accordion
             selectedKeys={selectedKeys}
-            onSelectionChange={handleSelectionChange} // Pass the function
+            onSelectionChange={setSelectedKeys}
           >
             <AccordionItem
               key='1'
@@ -82,7 +75,7 @@ const page: React.FC<Props> = props => {
               </p>
             </AccordionItem>
             <AccordionItem
-              key='3'
+              key='4'
               aria-label='Accordion 3'
               title={
                 <div className='font-semibold text-gray-600'>
@@ -98,7 +91,7 @@ const page: React.FC<Props> = props => {
               </p>
             </AccordionItem>
             <AccordionItem
-              key='3'
+              key='5'
               aria-label='Accordion 3'
               title={
                 <div className='font-semibold text-gray-600'>
@@ -120,4 +113,4 @@ const page: React.FC<Props> = props => {
   )
 }
 
-export default page
+export default FAQPage
