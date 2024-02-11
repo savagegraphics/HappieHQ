@@ -3,8 +3,8 @@ import { Accordion, AccordionItem } from '@nextui-org/react'
 
 type Props = {}
 
-const FAQ: React.FC<Props> = () => {
-  const [selectedKeys, setSelectedKeys] = useState<Set<string>>(new Set(['1']))
+const FAQ = (props: Props) => {
+  const [selectedKeys, setSelectedKeys] = useState(new Set(['1']))
 
   return (
     <div className='max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto'>
@@ -22,7 +22,10 @@ const FAQ: React.FC<Props> = () => {
         </div>
 
         <div className='md:col-span-3'>
-          <Accordion selectedKeys={selectedKeys}>
+          <Accordion
+            selectedKeys={selectedKeys}
+            // onSelectionChange={setSelectedKeys}
+          >
             <AccordionItem
               key='1'
               aria-label='Accordion 1'
