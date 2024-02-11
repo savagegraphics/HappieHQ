@@ -1,5 +1,6 @@
 import flowbite from "flowbite/plugin";
 import type { Config } from "tailwindcss"
+import {nextui} from "@nextui-org/react";
 
 const config = {
   darkMode: ["class"],
@@ -9,7 +10,9 @@ const config = {
     './src/**/*.{ts,tsx}',
     './node_modules/preline/preline.js', 
     "./app/**/*.{ts,tsx}", 
-    "./node_modules/flowbite-react/lib/**/*.js",
+    "./node_modules/flowbite-react/lib/**/*.js", 
+     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
+
 	],
   prefix: "",
   theme: {
@@ -83,7 +86,8 @@ const config = {
       },
     },
   },
-  plugins: [ flowbite,
+  plugins: [nextui(),
+     flowbite,
     require("tailwindcss-animate"),  
    require('preline/plugin'),
    require('flowbite/plugin'),

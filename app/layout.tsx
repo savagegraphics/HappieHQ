@@ -6,6 +6,7 @@ import { Providers } from './providers'
 import { fonts } from './fonts'
 import { Inter as FontSans } from 'next/font/google'
 import PrelineScript from './PrelineScript'
+import { Providors } from './providors'
 // import { ThemeModeScript } from 'flowbite-react'
 // import { Flowbite, ThemeModeScript } from 'flowbite-react'
 // import { type FC, type PropsWithChildren } from 'react'
@@ -32,7 +33,9 @@ export default function RootLayout ({
         {/* <head>
           <ThemeModeScript />
         </head> */}
-        <Providers>{children}</Providers>
+        <Providors>
+          <Providers>{children}</Providers>
+        </Providors>
       </body>
       <PrelineScript />
     </html>
