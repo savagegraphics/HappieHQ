@@ -22,10 +22,7 @@ const FAQ: React.FC<Props> = () => {
         </div>
 
         <div className='md:col-span-3'>
-          <Accordion
-            selectedKeys={selectedKeys}
-            onSelectionChange={setSelectedKeys}
-          >
+          <Accordion selectedKeys={selectedKeys}>
             <AccordionItem
               key='1'
               aria-label='Accordion 1'
