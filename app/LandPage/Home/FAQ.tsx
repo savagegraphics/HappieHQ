@@ -3,7 +3,7 @@ import { Accordion, AccordionItem } from '@nextui-org/react'
 
 type Props = {}
 
-const FAQPage: React.FC<Props> = () => {
+const FAQ: React.FC<Props> = () => {
   const [selectedKeys, setSelectedKeys] = useState<Set<string>>(new Set(['1']))
 
   return (
@@ -113,4 +113,4 @@ const FAQPage: React.FC<Props> = () => {
   )
 }
 
-export default FAQPage
+export default FAQ
