@@ -1,10 +1,18 @@
 import React from 'react'
 import { Accordion, AccordionItem } from '@nextui-org/react'
+import { Selection } from '@react-types/shared'
 
 type Props = {}
 
-const page = (props: Props) => {
+const page: React.FC<Props> = props => {
   const [selectedKeys, setSelectedKeys] = React.useState(new Set(['1']))
+
+  // Define a function to handle selection change
+  const handleSelectionChange = (keys: Selection) => {
+    // Update the selected keys state
+    setSelectedKeys(keys as Set<string>)
+  }
+
   return (
     <div className='max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto'>
       <div className='grid md:grid-cols-5 gap-10 lg:m-2 m-4'>
@@ -23,7 +31,7 @@ const page = (props: Props) => {
         <div className='md:col-span-3'>
           <Accordion
             selectedKeys={selectedKeys}
-            onSelectionChange={setSelectedKeys}
+            onSelectionChange={handleSelectionChange} // Pass the function
           >
             <AccordionItem
               key='1'
