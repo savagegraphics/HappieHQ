@@ -1,9 +1,7 @@
-import React from 'react'
+import * as React from 'react'
+import { Button } from '@nextui-org/button'
 
-type Props = {}
-
-const FAQ = (props: Props) => {
-  return <div>FAQ</div>
+function FAQ () {
+  return <Button>Press me</Button>
 }
-
 export default FAQ

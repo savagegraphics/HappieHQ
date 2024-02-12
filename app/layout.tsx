@@ -2,11 +2,11 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import { Providers } from './providers'
+import { Provider } from './providers'
 import { fonts } from './fonts'
 import { Inter as FontSans } from 'next/font/google'
 import PrelineScript from './PrelineScript'
-import { Providors } from './providors'
+import { Providers } from './NextUIProvider'
 // import { ThemeModeScript } from 'flowbite-react'
 // import { Flowbite, ThemeModeScript } from 'flowbite-react'
 // import { type FC, type PropsWithChildren } from 'react'
@@ -33,9 +33,9 @@ export default function RootLayout ({
         {/* <head>
           <ThemeModeScript />
         </head> */}
-        <Providors>
-          <Providers>{children}</Providers>
-        </Providors>
+        <Providers>
+          <Provider>{children}</Provider>
+        </Providers>
       </body>
       <PrelineScript />
     </html>
