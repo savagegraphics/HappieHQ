@@ -14,9 +14,9 @@ const SkeletonSingleCard = () => {
             <div>{/* Contact Links Placeholder */}</div>
           </div>
         </div>
-        <hr className='my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8' />
+        <hr className='my-6 border-gray-200 sm:mx-auto' />
         <div className='sm:flex sm:items-center sm:justify-between'>
-          <span className='text-sm text-gray-200 sm:text-center dark:text-gray-100'>
+          <span className='text-sm text-gray-200 sm:text-center'>
             {/* Copyright Placeholder */}
           </span>
           <div className='flex mt-4 sm:justify-center sm:mt-0'>
