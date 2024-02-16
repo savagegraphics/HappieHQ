@@ -8,7 +8,7 @@ type Props = {}
 const login = (props: Props) => {
   return (
     <div>
-      <div className='bg-white dark:bg-gray-900'>
+      <div className='bg-white'>
         <div className='flex justify-center h-screen'>
           <div
             className='hidden bg-cover lg:block lg:w-2/4'
@@ -30,17 +30,17 @@ const login = (props: Props) => {
             </div>
           </div>
           <main className='w-full max-w-md mx-auto p-6 mt-12'>
-            <div className='mt-7 bg-white border border-gray-200 rounded-xl shadow-sm dark:bg-gray-800 dark:border-gray-700'>
+            <div className='mt-7 bg-white border border-gray-200 rounded-xl shadow-sm'>
               <div className='p-4 sm:p-7'>
                 <div className='text-center'>
-                  <h1 className='block text-2xl font-bold text-gray-800 dark:text-white'>
+                  <h1 className='block text-2xl font-bold text-gray-800'>
                     Sign in
                   </h1>
-                  <p className='mt-2 text-sm text-gray-600 dark:text-gray-400'>
+                  <p className='mt-2 text-sm text-gray-600'>
                     Don&apos;t have an account yet?
                     <Link
                       href='/Auth/SignUp'
-                      className='text-blue-600 d66 ecoration-2 hover:underline font-medium dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'
+                      className='text-blue-600 d66 ecoration-2 hover:underline font-medium'
                     >
                       Sign up here
                     </Link>
@@ -50,7 +50,7 @@ const login = (props: Props) => {
                 <div className='mt-5'>
                   <button
                     type='button'
-                    className='w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-xl border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'
+                    className='w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-xl border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none'
                   >
                     <svg
                       className='w-4 h-auto'
@@ -79,16 +79,13 @@ const login = (props: Props) => {
                     Sign in with Google
                   </button>
 
-                  <div className='py-3 flex items-center text-xs text-gray-400 uppercase before:flex-[1_1_0%] before:border-t before:border-gray-200 before:me-6 after:flex-[1_1_0%] after:border-t after:border-gray-200 after:ms-6 dark:text-gray-500 dark:before:border-gray-600 dark:after:border-gray-600'>
+                  <div className='py-3 flex items-center text-xs text-gray-400 uppercase before:flex-[1_1_0%] before:border-t before:border-gray-200 before:me-6 after:flex-[1_1_0%] after:border-t after:border-gray-200 after:ms-6'>
                     Or
                   </div>
                   <form>
                     <div className='grid gap-y-4'>
                       <div>
-                        <label
-                          htmlFor='email'
-                          className='block text-sm mb-2 dark:text-white'
-                        >
+                        <label htmlFor='email' className='block text-sm mb-2'>
                           Email address
                         </label>
                         <div className='relative'>
@@ -96,7 +93,7 @@ const login = (props: Props) => {
                             type='email'
                             id='email'
                             name='email'
-                            className='py-3 px-4 block w-full border-gray-200 rounded-xl text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600'
+                            className='py-3 px-4 block w-full border-gray-200 rounded-xl text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none'
                             required
                             aria-describedby='email-error'
                           />
@@ -126,12 +123,12 @@ const login = (props: Props) => {
                         <div className='flex justify-between items-center'>
                           <label
                             htmlFor='password'
-                            className='block text-sm mb-2 dark:text-white'
+                            className='block text-sm mb-2'
                           >
                             Password
                           </label>
                           <a
-                            className='text-sm text-blue-600 decoration-2 hover:underline font-medium dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'
+                            className='text-sm text-blue-600 decoration-2 hover:underline font-medium'
                             href='../examples/html/recover-account.html'
                           >
                             Forgot password?
@@ -142,7 +139,7 @@ const login = (props: Props) => {
                             type='password'
                             id='password'
                             name='password'
-                            className='py-3 px-4 block w-full border-gray-200 rounded-xl text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600'
+                            className='py-3 px-4 block w-full border-gray-200 rounded-xl text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none'
                             required
                             aria-describedby='password-error'
                           />
@@ -173,21 +170,18 @@ const login = (props: Props) => {
                             id='remember-me'
                             name='remember-me'
                             type='checkbox'
-                            className='shrink-0 mt-0.5 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800'
+                            className='shrink-0 mt-0.5 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500'
                           />
                         </div>
                         <div className='ms-3'>
-                          <label
-                            htmlFor='remember-me'
-                            className='text-sm dark:text-white'
-                          >
+                          <label htmlFor='remember-me' className='text-sm'>
                             Remember me
                           </label>
                         </div>
                       </div>
                       <button
                         type='submit'
-                        className='w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-xl border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'
+                        className='w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-xl border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none'
                       >
                         <Link href='../dashboard'>
                           {' '}

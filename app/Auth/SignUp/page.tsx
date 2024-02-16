@@ -8,7 +8,7 @@ type Props = {}
 const signin = (props: Props) => {
   return (
     <div>
-      <section className='bg-white dark:bg-gray-900'>
+      <section className='bg-white'>
         <div className='flex justify-center min-h-screen'>
           <div className='flex items-center w-full max-w-3xl p-8 mx-auto lg:px-12 lg:w-3/5'>
             <div className='w-full'>
@@ -21,20 +21,20 @@ const signin = (props: Props) => {
               </div>
               <div className='flex items-center justify-center'>
                 <h1
-                  className='text-3xl font-bold tracking-wider text-[#0F2B48] dark:text-white'
+                  className='text-3xl font-bold tracking-wider text-[#0F2B48]'
                   style={{ fontFamily: 'Inter, sans-serif' }}
                 >
                   Create an Account
                 </h1>
               </div>
               <div className='flex items-center justify-center text-center mx-16'>
-                <p className='mt-4 text-gray-500 dark:text-gray-400'>
+                <p className='mt-4 text-gray-500'>
                   Great to have you back! Kindly enter your credentials to acces
                   your account
                 </p>
               </div>
               <div className='mt-6'>
-                <h1 className='text-gray-500 dark:text-gray-300'>
+                <h1 className='text-gray-500'>
                   Select type of account
                 </h1>
 
@@ -58,7 +58,7 @@ const signin = (props: Props) => {
                     <span className='mx-2'>Individual</span>
                   </button>
 
-                  <button className='flex justify-center w-full px-6 py-3 mt-4 text-blve border border-blve rounded-xl md:mt-0 md:w-auto md:mx-2 dark:border-blue-400 dark:text-blue-400 focus:outline-none'>
+                  <button className='flex justify-center w-full px-6 py-3 mt-4 text-blve border border-blve rounded-xl md:mt-0 md:w-auto md:mx-2 focus:outline-none'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       className='w-6 h-6'
@@ -81,68 +81,68 @@ const signin = (props: Props) => {
 
               <form className='grid grid-cols-1 gap-6 mt-8 md:grid-cols-2'>
                 <div>
-                  <label className='block mb-2 text-sm text-gray-600 dark:text-gray-200'>
+                  <label className='block mb-2 text-sm text-gray-600'>
                     First Name
                   </label>
                   <input
                     type='text'
                     placeholder='John'
-                    className='block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-xl dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
+                    className='block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-xl focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
                   />
                 </div>
 
                 <div>
-                  <label className='block mb-2 text-sm text-gray-600 dark:text-gray-200'>
+                  <label className='block mb-2 text-sm text-gray-600'>
                     Last name
                   </label>
                   <input
                     type='text'
                     placeholder='Snow'
-                    className='block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-xl dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
+                    className='block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-xl focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
                   />
                 </div>
 
                 <div>
-                  <label className='block mb-2 text-sm text-gray-600 dark:text-gray-200'>
+                  <label className='block mb-2 text-sm text-gray-600'>
                     Phone number
                   </label>
                   <input
                     type='number'
                     placeholder='phone'
-                    className='block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-xl dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
+                    className='block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-xl focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
                   />
                 </div>
 
                 <div>
-                  <label className='block mb-2 text-sm text-gray-600 dark:text-gray-200'>
+                  <label className='block mb-2 text-sm text-gray-600'>
                     Email address
                   </label>
                   <input
                     type='email'
                     placeholder='youremail@gmail.com'
-                    className='block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-xl dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
+                    className='block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-xl focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
                   />
                 </div>
 
                 <div>
-                  <label className='block mb-2 text-sm text-gray-600 dark:text-gray-200'>
+                  <label className='block mb-2 text-sm text-gray-600'>
                     Password
                   </label>
                   <input
                     type='password'
                     placeholder='Enter your password'
-                    className='block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-xl dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
+                    className='block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-xl focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
                   />
                 </div>
 
                 <div>
-                  <label className='block mb-2 text-sm text-gray-600 dark:text-gray-200'>
+                  <label className='block mb-2 text-sm text-gray-600'>
                     Confirm password
                   </label>
                   <input
                     type='password'
                     placeholder='Enter your password'
-                    className='block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-xl dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40'
+                    className='block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-xl'
                   />
                 </div>
               </form>

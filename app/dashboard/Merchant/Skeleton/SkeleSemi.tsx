@@ -60,7 +60,7 @@ const SkelSingle = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false)
-    }, 12000) // Change the delay time as needed
+    },1000) // Change the delay time as needed
     return () => clearTimeout(timer)
   }, [])
 
