@@ -11,9 +11,10 @@ type Props = {}
 const page = (props: Props) => {
   return (
     <div>
-      <Completed />
+      {/* <Completed />
       <Cart />
-      <Checkout />
+      <Checkout /> */}
+      Estimate
     </div>
   )
 }
