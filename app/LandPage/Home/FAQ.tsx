@@ -49,7 +49,10 @@ export default function App () {
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
-              <AccordionPanel pb={4} className='bg-gray-200 rounded-b-xl'>
+              <AccordionPanel
+                pb={4}
+                className='bg-gray-200 rounded-b-xl italic'
+              >
                 Happie, is a e-commerce logistics start-up with a mission to
                 that provide innovative, effective shipping and fulfillment
                 services for e-commerce businesses.
@@ -71,7 +74,10 @@ export default function App () {
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
-              <AccordionPanel pb={4} className='bg-gray-200 rounded-b-xl'>
+              <AccordionPanel
+                pb={4}
+                className='bg-gray-200 rounded-b-xl italic'
+              >
                 Happie, is a e-commerce logistics start-up with a mission to
                 that provide innovative, effective shipping and fulfillment
                 services for e-commerce businesses..
