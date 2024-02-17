@@ -7,6 +7,7 @@ import { fonts } from './fonts'
 import { Inter as FontSans } from 'next/font/google'
 import PrelineScript from './PrelineScript'
 import { Providers } from './NextUIProvider'
+import { ChakraProvida } from './ChakraProvida'
 // import { ThemeModeScript } from 'flowbite-react'
 // import { Flowbite, ThemeModeScript } from 'flowbite-react'
 // import { type FC, type PropsWithChildren } from 'react'
@@ -34,7 +35,9 @@ export default function RootLayout ({
           <ThemeModeScript />
         </head> */}
         <Providers>
-          <Provider>{children}</Provider>
+          <ChakraProvida>
+            <Provider>{children}</Provider>
+          </ChakraProvida>
         </Providers>
       </body>
       <PrelineScript />
