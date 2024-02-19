@@ -1,4 +1,8 @@
 import React from 'react'
+
+type PlusIconProps = {
+  size?: number
+}
 export const PlusIcon = ({
   size = 24,
   width = { size },
