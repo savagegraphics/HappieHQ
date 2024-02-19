@@ -4,9 +4,9 @@ import React from 'react'
 // import Grid from './Grid'
 // import NavSearch from './NavSearch'
 // import Completed from './Completed'
-import Prepaid from './Prepaid'
+// import Prepaid from './Prepaid'
 import InTransit from './InTransit'
-import Complete from './Complete'
+// import Complete from './Complete'
 
 type Props = {}
 
@@ -47,10 +47,10 @@ const Router = (props: Props) => {
           <InTransit />
         </TabPanel>
         <TabPanel>
-          <Prepaid />
+          <InTransit />
         </TabPanel>
         <TabPanel>
-          <Complete />
+          <InTransit />
         </TabPanel>
       </TabPanels>
     </Tabs>
