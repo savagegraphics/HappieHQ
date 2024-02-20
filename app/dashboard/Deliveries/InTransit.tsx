@@ -126,7 +126,7 @@ export default function App() {
             <Dropdown>
               <DropdownTrigger>
                 <Button isIconOnly size="sm" variant="light">
-                  <VerticalDotsIcon className="text-default-300" />
+                  <VerticalDotsIcon />
                 </Button>
               </DropdownTrigger>
               <DropdownMenu>
