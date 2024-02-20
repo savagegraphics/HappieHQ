@@ -1,4 +1,6 @@
+'use client'
 import React from 'react'
+import { useState } from 'react'
 import {
   Table,
   TableHeader,
@@ -37,19 +39,19 @@ const INITIAL_VISIBLE_COLUMNS = ['name', 'role', 'status', 'actions']
 type User = typeof users[0]
 
 export default function App () {
-  const [filterValue, setFilterValue] = React.useState('')
-  const [selectedKeys, setSelectedKeys] = React.useState<Selection>(new Set([]))
-  const [visibleColumns, setVisibleColumns] = React.useState<Selection>(
+  const [filterValue, setFilterValue] = useState('')
+  const [selectedKeys, setSelectedKeys] = useState<Selection>(new Set([]))
+  const [visibleColumns, setVisibleColumns] = useState<Selection>(
     new Set(INITIAL_VISIBLE_COLUMNS)
   )
-  const [statusFilter, setStatusFilter] = React.useState<Selection>('all')
-  const [rowsPerPage, setRowsPerPage] = React.useState(5)
-  const [sortDescriptor, setSortDescriptor] = React.useState<SortDescriptor>({
+  const [statusFilter, setStatusFilter] = useState<Selection>('all')
+  const [rowsPerPage, setRowsPerPage] = useState(5)
+  const [sortDescriptor, setSortDescriptor] = useState<SortDescriptor>({
     column: 'age',
     direction: 'ascending'
   })
 
-  const [page, setPage] = React.useState(1)
+  const [page, setPage] = useState(1)
 
   const hasSearchFilter = Boolean(filterValue)
 
