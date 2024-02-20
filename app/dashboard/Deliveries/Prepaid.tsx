@@ -140,7 +140,7 @@ export default function PrePaid () {
             <Dropdown>
               <DropdownTrigger>
                 <Button isIconOnly size='sm' variant='light'>
-                  <VerticalDotsIcon className='text-default-300' width={undefined} height={undefined} />
+                  <VerticalDotsIcon width={undefined} height={undefined} />
                 </Button>
               </DropdownTrigger>
               <DropdownMenu>
