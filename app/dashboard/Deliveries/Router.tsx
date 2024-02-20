@@ -4,7 +4,7 @@ import React from 'react'
 // import Grid from './Grid'
 // import NavSearch from './NavSearch'
 import Completed from './Completed'
-import Prepaid from './PrePaid'
+import Prepaid from './Prepacked'
 import InTransit from './InTransit'
 // import Complete from './Complete'
 
