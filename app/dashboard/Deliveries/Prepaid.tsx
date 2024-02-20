@@ -254,8 +254,8 @@ export default function App () {
             </Dropdown>
             <Button
               color='primary'
-              endContent={<PlusIcon width={undefined} height={undefined} />}
             >
+                <PlusIcon width={undefined} height={undefined} />
               Add New
             </Button>
           </div>
