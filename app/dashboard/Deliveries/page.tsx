@@ -5,8 +5,8 @@ type Props = {}
 
 const page = (props: Props) => {
   return (
-    <div className=''>
-      <Router />
+    <div>
+        <Router/>
     </div>
   )
 }

@@ -307,8 +307,8 @@ const Page = (props: Props) => {
           </div>
         </nav>
       </header>
-      <div className='sticky top-0 inset-x-0 z-20 bg-white border-y px-4 sm:px-6 md:px-8 lg:hidden dark:bg-gray-800 dark:border-gray-700'>
-        <div className='flex items-center py-4'>
+      <div className='sticky top-0 inset-x-0 z-20 bg-white border-y px-4 sm:px-6 md:px-8 lg:hidden w-[42rem]'>
+        <div className='flex fixed items-center py-4 bg-white w-[42rem]'>
           <button
             type='button'
             className='text-gray-500 hover:text-gray-600'
@@ -890,7 +890,7 @@ const Page = (props: Props) => {
         </nav>
       </div>
       {/* Display the dynamic content */}
-      <div className='mt-8 ml-0 lg:ml-64'>{contentToShow}</div>
+      <div className='mt-16 lg:mt-8 ml-0 lg:ml-64'>{contentToShow}</div>
     </body>
   )
 }

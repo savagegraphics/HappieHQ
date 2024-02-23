@@ -6,6 +6,7 @@ import Card from './Skeleton/Card'
 import FAQ from './Skeleton/FAQ'
 import CTA from './CTA'
 import Footer from './Skeleton/Footer'
+// import Testimonial from './Testimonial'
 // import TestimonialsSection from './TestimonialsSection'
 // import { testimonials } from '@/utils/constants'
 
@@ -18,6 +19,7 @@ const page = (props: Props) => {
       <Feature />
       <Card />
       <CTA />
+      {/* <Testimonial/> */}
       <FAQ />
       {/* <TestimonialsSection testimonials={testimonials} /> */}
       <Footer />
