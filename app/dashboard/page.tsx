@@ -307,7 +307,7 @@ const Page = (props: Props) => {
           </div>
         </nav>
       </header>
-      <div className='sticky top-0 inset-x-0 z-20 bg-white border-y px-4 sm:px-6 md:px-8 lg:hidden w-[42rem]'>
+      <div className='sticky top-0 inset-x-0 z-20 bg-white border-y px-4 sm:px-6 md:px-8 lg:hidden'>
         <div className='flex items-center py-4 bg-white w-[42rem]'>
           <button
             type='button'

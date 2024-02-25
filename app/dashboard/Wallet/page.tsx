@@ -1,14 +1,13 @@
 import React from 'react'
-import Component from '../Components/page'
 import BalanceCard from './BalanceCard'
+import Container from './Container'
 
 type Props = {}
 
 const page = (props: Props) => {
   return (
     <div>
-      <BalanceCard />
-      <Component />
+      <Container />
     </div>
   )
 }
