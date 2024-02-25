@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
-import Home from './Home/page'
+import Home from './Home/testimonial/page'
 import Products from './Home/Hero'
 import LogIn from './Home/Hero'
 
