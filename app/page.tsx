@@ -8,6 +8,7 @@ type Props = {}
 const page = (props: Props) => {
   return (
     <div>
+      hmc
       <LandPage />
     </div>
   )
