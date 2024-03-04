@@ -5,12 +5,11 @@ export default function CarouselTestimonial () {
   useEffect(() => {
     const slider = new Glide('.glide-08', {
       type: 'carousel',
-      focusAt: 1,
+      startAt: 0,
+      perView: 2, // Combined into one property
       animationDuration: 4000,
-      autoplay: 4500,
-      autoplay: true,
+      autoplay: true, // Single autoplay property
       rewind: true,
-      perView: 2,
       gap: 48,
       classes: {
         nav: {
