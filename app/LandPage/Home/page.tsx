@@ -6,9 +6,8 @@ import Card from './Skeleton/Card'
 import FAQ from './Skeleton/FAQ'
 import CTA from './CTA'
 import Footer from './Skeleton/Footer'
-// import Testimonial from './Testimonial'
-// import TestimonialsSection from './TestimonialsSection'
-// import { testimonials } from '@/utils/constants'
+import Testimonial from './Testimonial'
+
 
 type Props = {}
 
@@ -19,9 +18,8 @@ const page = (props: Props) => {
       <Feature />
       <Card />
       <CTA />
-      {/* <Testimonial/> */}
       <FAQ />
-      {/* <TestimonialsSection testimonials={testimonials} /> */}
+      <Testimonial/>
       <Footer />
     </div>
   )
