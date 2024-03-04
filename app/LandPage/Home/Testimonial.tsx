@@ -44,9 +44,9 @@ export default function CarouselTestimonial () {
                     <figure className='relative z-10'>
                       <blockquote className='p-6 text-lg leading-relaxed'>
                         <p>
-                          Wind-ui, is probably one of the best libraries I've
-                          came across. Good looking, easy to use and above all
-                          super accessible.
+                          Wind-ui, is probably one of the best libraries
+                          I&apos;ve came across. Good looking, easy to use and
+                          above all super accessible.
                         </p>
                       </blockquote>
                       <figcaption className='flex flex-col items-start gap-2 p-6 pt-0 text-sm text-emerald-500'>
@@ -301,8 +301,8 @@ export default function CarouselTestimonial () {
                     <figure className='relative z-10'>
                       <blockquote className='p-6 text-lg leading-relaxed'>
                         <p>
-                          You can easily communicate with Wind-ui's team for
-                          support through their discord channel. They are
+                          You can easily communicate with Wind-ui&apos;s team
+                          for support through their discord channel. They are
                           responsive and ultra helpful guys!
                         </p>
                       </blockquote>
