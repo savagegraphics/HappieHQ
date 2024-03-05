@@ -43,9 +43,10 @@ export default function CarouselTestimonial () {
                     <figure className='relative z-10'>
                       <blockquote className='p-6 text-lg leading-relaxed'>
                         <p>
-                          Wind-ui, is probably one of the best libraries
-                          I&apos;ve came across. Good looking, easy to use and
-                          above all super accessible.
+                          Running a business can be demanding, having motivated
+                          employees is paramount to our success and with
+                          earnipay’s flexible salary payment solutions,
+                          productivity isn’t a demand anymore, it’s a lifestyle.
                         </p>
                       </blockquote>
                       <figcaption className='flex flex-col items-start gap-2 p-6 pt-0 text-sm text-emerald-500'>
@@ -138,11 +139,11 @@ export default function CarouselTestimonial () {
                           />
                           <div className='flex flex-col gap-1'>
                             <span className='font-bold uppercase'>
-                              Bill Gates
+                              Bruce Wills
                             </span>
                             <cite className='not-italic'>
                               <a href='http://www.microsoft.com'>
-                                CEO, Microsoft
+                                Founder of Bruce Multichoice
                               </a>
                             </cite>
                           </div>
@@ -172,8 +173,10 @@ export default function CarouselTestimonial () {
                     <figure className='relative z-10'>
                       <blockquote className='p-6 text-lg leading-relaxed'>
                         <p>
-                          Wind-ui components come with proper attributes to
-                          ensure full accessibility with the WAI-ARIA standards.
+                          Running a business can be demanding, having motivated
+                          employees is paramount to our success and with
+                          earnipay’s flexible salary payment solutions,
+                          productivity isn’t a demand anymore, it’s a lifestyle.
                         </p>
                       </blockquote>
                       <figcaption className='flex flex-col items-start gap-2 p-6 pt-0 text-sm text-emerald-500'>
@@ -257,7 +260,7 @@ export default function CarouselTestimonial () {
                         </span>
                         <div className='flex items-center gap-4 pt-4 text-sm text-emerald-500'>
                           <img
-                            src='https://i.pravatar.cc/40?img=25'
+                            src='https://i.pravatar.cc/40?img=11'
                             alt='user name'
                             title='user name'
                             width='48'
@@ -266,11 +269,11 @@ export default function CarouselTestimonial () {
                           />
                           <div className='flex flex-col gap-1'>
                             <span className='font-bold uppercase'>
-                              Jane Smith
+                              Bruce Wills
                             </span>
                             <cite className='not-italic'>
                               <a href='http://www.microsoft.com'>
-                                WAI-ARIA, Representative
+                                Founder of Bruce Multichoice
                               </a>
                             </cite>
                           </div>
@@ -300,9 +303,10 @@ export default function CarouselTestimonial () {
                     <figure className='relative z-10'>
                       <blockquote className='p-6 text-lg leading-relaxed'>
                         <p>
-                          You can easily communicate with Wind-ui&apos;s team
-                          for support through their discord channel. They are
-                          responsive and ultra helpful guys!
+                          Running a business can be demanding, having motivated
+                          employees is paramount to our success and with
+                          earnipay’s flexible salary payment solutions,
+                          productivity isn’t a demand anymore, it’s a lifestyle.
                         </p>
                       </blockquote>
                       <figcaption className='flex flex-col items-start gap-2 p-6 pt-0 text-sm text-emerald-500'>
@@ -386,7 +390,7 @@ export default function CarouselTestimonial () {
                         </span>
                         <div className='flex items-center gap-4 pt-4 text-sm text-emerald-500'>
                           <img
-                            src='https://i.pravatar.cc/40?img=7'
+                            src='https://i.pravatar.cc/40?img=11'
                             alt='user name'
                             title='user name'
                             width='48'
@@ -395,11 +399,11 @@ export default function CarouselTestimonial () {
                           />
                           <div className='flex flex-col gap-1'>
                             <span className='font-bold uppercase'>
-                              Arnold Jones
+                              Bruce Wills
                             </span>
                             <cite className='not-italic'>
                               <a href='http://www.microsoft.com'>
-                                Software Engineer
+                                Founder of Bruce Multichoice
                               </a>
                             </cite>
                           </div>
