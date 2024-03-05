@@ -7,12 +7,14 @@ import FAQ from './Skeleton/FAQ'
 import CTA from './CTA'
 import Footer from './Skeleton/Footer'
 import Testimonial from './Testimonial'
+import Navbar from './Navbar'
 
 type Props = {}
 
 const page = (props: Props) => {
   return (
     <div className='overflow-hidden'>
+      <Navbar />
       <Hero />
       <Feature />
       <Card />
