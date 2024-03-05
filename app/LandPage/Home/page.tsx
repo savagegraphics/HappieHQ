@@ -14,7 +14,7 @@ type Props = {}
 const page = (props: Props) => {
   return (
     <div className='overflow-hidden'>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <Feature />
       <Card />
