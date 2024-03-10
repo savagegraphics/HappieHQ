@@ -72,7 +72,7 @@ const Page = (props: Props) => {
   }
 
   return (
-    <body className='bg-gray-50 dark:bg-slate-900'>
+    <body className='bg-gray-50 dark:bg-slate-900 overflow-x-hidden'>
       <header className='sticky top-0 inset-x-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-[48] w-full bg-white border-b border-b-gray-300 text-sm py-2.5 sm:py-4 lg:ps-64'>
         <nav
           className='flex basis-full items-center w-full mx-auto px-4 sm:px-6 md:px-8'

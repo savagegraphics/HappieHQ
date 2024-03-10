@@ -7,6 +7,7 @@ import Completed from './Completed'
 import Prepaid from './Prepacked'
 import InTransit from './InTransit'
 // import Complete from './Complete'
+import Table from './table/Table'
 
 type Props = {}
 

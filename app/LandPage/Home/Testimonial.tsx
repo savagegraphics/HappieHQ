@@ -139,11 +139,11 @@ export default function CarouselTestimonial () {
                           />
                           <div className='flex flex-col gap-1'>
                             <span className='font-bold uppercase'>
-                              Bruce Wills
+                              John Doe
                             </span>
                             <cite className='not-italic'>
                               <a href='http://www.microsoft.com'>
-                                Founder of Bruce Multichoice
+                                Current User
                               </a>
                             </cite>
                           </div>
@@ -269,11 +269,11 @@ export default function CarouselTestimonial () {
                           />
                           <div className='flex flex-col gap-1'>
                             <span className='font-bold uppercase'>
-                              Bruce Wills
+                              John Doe
                             </span>
                             <cite className='not-italic'>
                               <a href='http://www.microsoft.com'>
-                                Founder of Bruce Multichoice
+                                Current User
                               </a>
                             </cite>
                           </div>
@@ -399,11 +399,11 @@ export default function CarouselTestimonial () {
                           />
                           <div className='flex flex-col gap-1'>
                             <span className='font-bold uppercase'>
-                              Bruce Wills
+                              John Doe
                             </span>
                             <cite className='not-italic'>
                               <a href='http://www.microsoft.com'>
-                                Founder of Bruce Multichoice
+                                Current User
                               </a>
                             </cite>
                           </div>

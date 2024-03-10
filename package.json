@@ -13,6 +13,9 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@glidejs/glide": "^3.6.0",
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.1.1",
@@ -45,6 +48,7 @@
     "next-themes": "^0.2.1",
     "preline": "^2.0.3",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.1",
     "react-collapse": "^5.1.1",
     "react-dom": "^18",
     "react-slick": "^0.29.0",
@@ -52,6 +56,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@types/acorn": "^6.0.0",
     "@types/glidejs__glide": "^3.6.5",
     "@types/node": "^20",
     "@types/react": "^18",
