@@ -26,7 +26,8 @@ const MyComponent = () => {
       enabled: false
     },
     stroke: {
-      width: 6
+      width: 6,
+      curve: 'smooth'
     },
     grid: {
       show: true,
