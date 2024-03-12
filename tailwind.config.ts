@@ -11,8 +11,7 @@ const config = {
     './node_modules/preline/preline.js', 
     "./app/**/*.{ts,tsx}", 
     "./node_modules/flowbite-react/lib/**/*.js", 
-     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
-
+     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
 	],
   prefix: "",
   theme: {

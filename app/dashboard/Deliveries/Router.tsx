@@ -51,7 +51,7 @@ const Router = (props: Props) => {
           <Prepaid />
         </TabPanel>
         <TabPanel>
-          <Completed />
+          <InTransit />
         </TabPanel>
       </TabPanels>
     </Tabs>

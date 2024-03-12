@@ -4,8 +4,8 @@ type Props = {}
 
 const BalanceCard = (props: Props) => {
   return (
-    <div className='mx-auto overflow-hidden container flex justify-center py-8 px-4'>
-      <div className='flex flex-col space-y-8 w-full px-16 max-w-xl'>
+    <div className='mx-auto overflow-hidden container flex justify-center py-4 px-8 lg:px-16'>
+      <div className='flex flex-col space-y-8 w-full max-w-xl'>
         <div className='bg-gradient-to-tl from-gray-900 to-gray-800 text-white h-56 w-[23rem] sm:w-20rem lg:w-96 p-6 rounded-xl shadow-md'>
           <div className='h-full flex flex-col justify-between'>
             <div className='flex items-start justify-between space-x-4'>
