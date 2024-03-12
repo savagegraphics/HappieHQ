@@ -52,9 +52,6 @@ const MyComponent = () => {
     legend: {
       show: false
     },
-    stroke: {
-      curve: 'smooth'
-    },
     xaxis: {
       categories: [
         '01 Feb',
