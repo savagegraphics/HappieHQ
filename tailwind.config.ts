@@ -87,6 +87,9 @@ const config = {
   },
   plugins: [nextui(),
      flowbite,
+     require('flowbite/plugin')({
+      charts: true,
+  }),
     require("tailwindcss-animate"),  
    require('preline/plugin'),
    require('flowbite/plugin'),
